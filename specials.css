@@ -1,0 +1,160 @@
+*{
+    
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: #2B3941;
+}
+/*Start of nav bar*/
+.nav{
+    display: flex;
+    align-items: center;
+    gap:250px;
+}
+
+.logo img{
+    width:auto;
+    height:14vh;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap:55px;
+   
+}
+.nav-item{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    color: #32E804;
+    opacity: 0.5;   
+}
+.nav-item:last-child{
+    margin-right:20px;
+}
+.nav-item:hover{
+    cursor: pointer;
+    color: black;
+
+}
+
+/*end of nav bar*/
+/*start of sm*/
+.social-media{
+    display: block;
+    margin: 280px 0px 0px 10px;
+    width:8vw;    
+}
+.sm-links{
+   justify-content: space-between;
+}
+.sm-line{
+    height:30vh;
+    width:12%;
+    margin: 8px 0 12px 18px;
+}
+.link{ 
+    height: 4vh;
+    margin: 20px 0 8px 28px;
+    display: block;   
+}
+/*end of sm*/
+/*start of cards*/
+.main{
+    position:absolute;
+    top:80px;
+    left:60px;
+}
+.title{
+    display: flex;
+    justify-content:center ;
+    height: 5vh;
+    position: absolute;
+    top:100px;
+    left: 0px;
+    right:0px;
+    
+}
+.container-fluid{
+    width: 95%;
+  
+
+}
+.card{
+    width:75%;
+    margin:120px 5px 50px 25px;
+    min-width:150px;
+    background-color: #2F514F;
+    border:0.1px solid #BDFF01;
+    height: 60vh;
+    box-shadow: 0 4px 8px rgba(101, 99, 99, 0.6);
+
+
+
+}
+.content{
+    display: flex;
+}
+.content img{
+    height:59.5vh;
+    width:55%;    
+}
+.card-body{
+    height: 59.5vh;
+    width:45%;
+    overflow: hidden; 
+    margin: 4px;  
+}
+.details{
+    color: white;
+    width:8vw;
+    font-size: 10px;
+}
+.card-body img{
+    height:20vh;
+    margin:10px 0 10px 30px;
+    width:0.1vw;
+    font-weight: bold;
+}
+.btn-order{
+   justify-content: center; 
+   margin:30px 0px;
+}
+.order-now{
+    background-color: #32E804;
+    width:7vw;
+    height:7vh;
+    border: none;
+   
+}
+.order-now a{
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    font-size: 9px;
+    text-decoration: none;
+}
+.order-now a:hover{
+    color: white;
+    font-weight: bold;
+}
+.order-now:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+
+/*end of cards*/
+/*Making it responsive*/
+@media screen and (max-width: 600px) {
+    .col-sm-4.col-md-4.col-lg-4{
+        width:100%;
+        display: block;
+        margin: 20px;
+    }
+    
+}

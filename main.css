@@ -1,0 +1,150 @@
+*{
+    
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: #2B3941;
+}
+/*Start of nav bar*/
+.nav{
+    display: flex;
+    align-items: center;
+    gap:250px;
+}
+
+.logo img{
+    width:auto;
+    height:14vh;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap:15px;
+   
+}
+.nav-item{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    color: #32E804;
+    opacity: 0.5;   
+}
+.nav-item:last-child{
+    margin-right:20px;
+}
+.nav-item:hover{
+    cursor: pointer;
+    color: black;
+
+}
+.vector{
+  
+    float:right;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+.vector img{
+    
+    height:76vh;
+    width:auto;
+    
+}
+/*end of nav bar*/
+/*start of sm*/
+.social-media{
+    display: block;
+    margin: 5px 0px 0px 4px;
+    width:8vw;    
+}
+.sm-links{
+    background-color: #2B3941;
+    gap:10px;
+    line-height: 20px;
+}
+.sm-line{
+    height:20vh;
+    width:12%;
+    margin: 6px 0 12px 18px;
+}
+.link{ 
+    height: 4vh;
+    margin: 20px 0 8px 28px;
+    display: block;   
+}
+/*end of sm*/
+/*start of content*/
+.content{
+    position:absolute;
+    top:99px;
+    left:85px;
+}
+.one-stop{
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: black;
+    color:white;
+    font-size: 12px;
+    width:10vw;
+    height:8vh;
+}
+.delicious-meals{
+    font-family:  'Poppins';
+    font-size: 35px;
+    margin-top: 8px;
+    color: #32E804;
+    line-height:25px;
+
+}
+
+.more-info{
+    color:white;
+    align-items: center;
+    font-size: 20px;
+    width:30vw;
+    line-height:0px;
+    margin:35px 10px 0px 0px;
+}
+.order-now{
+    margin-top: 102px;
+    border-radius: 50px;
+    background-color: #32E804;
+    width:10vw;
+    height:8vh;
+    border: none;
+}
+.order-now a{
+    font-weight: bold;
+    color:black;
+    font-size: 12px;
+    text-decoration: none;
+}
+.order-now a:hover{
+    color: white;
+    font-weight: bold;
+}
+.order-now:hover{
+    background-color: green;
+    cursor: pointer;
+}
+/*end of content*/
+/*Start of images section*/
+.section-images{
+    width:auto;
+    margin-top: 4rem;
+    display: flex;
+}
+.img-1,.img-3,.img-5{
+    height:45vh;
+    width:20%;
+}
+.img-2,.img-4{
+    height:40vh;
+    width:20%;
+    margin-top: 30px;
+}
+/*End of images section*/

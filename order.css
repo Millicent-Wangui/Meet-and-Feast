@@ -1,0 +1,156 @@
+*{
+    
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: #2B3941;
+}
+/*Start of nav bar*/
+.nav{
+    display: flex;
+    align-items: center;
+    gap:250px;
+}
+
+.logo img{
+    width:auto;
+    height:14vh;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap:35px;
+   
+}
+.nav-item{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    color: #32E804;
+    opacity: 0.5;   
+}
+.nav-item:last-child{
+    margin-right:20px;
+}
+.nav-item:hover{
+    cursor: pointer;
+    color: black;
+
+}
+.vector{
+    float:right;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+.vector img{
+    height:70vh;
+    width:auto;
+}
+/*end of nav bar*/
+/*start of sm*/
+.social-media{
+    display: block;
+    margin: 90px 0px 0px 4px;
+    width:8vw;    
+}
+.sm-links{
+    background-color: #2B3941;
+    gap:10px;
+    line-height: 20px;
+}
+.sm-line{
+    height:30vh;
+    width:12%;
+    margin: 6px 0 12px 18px;
+}
+.link{ 
+    height: 4vh;
+    margin: 20px 0 8px 28px;
+    display: block;   
+}
+/*end of sm*/
+/*Start of form*/
+.main{
+
+    margin-bottom: 100px;
+}
+.content{ 
+    display: block;   
+}
+
+.text{
+    color: white;
+    margin: 20px 8px 20px 8px;
+    justify-content: center;
+}
+.text h5{
+    font-size: 15px;
+}
+.form{
+    box-sizing: border-box;
+    position: absolute;
+    width: 42%;
+    height: 110vh;
+    left: 100px;
+    top: 100px;
+    border-radius: 5px;
+    background: rgba(255, 251, 251, 0.3);
+    justify-content: center;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  
+}
+
+label{
+    font-size: 15px;
+    margin:20px 8px 0px 8px;
+    text-transform: uppercase;
+    
+
+}
+input{
+    display: block;
+    outline:none;
+    border:1px solid black;
+    border-radius:5px;
+    margin:20px 8px 20px 8px;
+    width:25vw;
+    height:6vh;
+    padding: 0 0 0 5px;
+    font-size: 18px;
+    background-color:white;
+}
+.btn-order{
+    justify-content: center; 
+    margin:35px 0px 20px 8px;
+ }
+.order-now{
+    background-color: #32E804;
+    width:16vw;
+    height:7vh;
+    border-radius: 3px;
+    border: none;
+   
+}
+.order-now a{
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    font-size: 9px;
+    text-decoration: none;
+}
+.order-now a:hover{
+    color: white;
+    font-weight: bold;
+}
+.order-now:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+/*End of form*/
